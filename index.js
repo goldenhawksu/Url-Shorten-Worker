@@ -11,7 +11,7 @@ const html404 = `<!DOCTYPE html>
 <body>
   <h1>404 Not Found.</h1>
   <p>The url you visit is not found.</p>
-  <p> <a href="https://github.com/crazypeace/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a> </p>
+  <p> <a href="https://lovefree.ai/" target="_self">Try me</a> </p>
 </body>
 </html>`
 
@@ -175,7 +175,7 @@ async function handleRequest(request) {
 
   console.log(path)
   if(!path){
-    return Response.redirect("https://kjkkk.top", 302)
+    return Response.redirect("https://lovefree.ai", 302)
     /* new Response(html404, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
